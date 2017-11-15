@@ -3,3 +3,4 @@ E:\Unity\VsWorkSpace\TcpCreatNetworkingGame\TcpCreatNetworkingGame\TcpClient\bin
 E:\Unity\VsWorkSpace\TcpCreatNetworkingGame\TcpCreatNetworkingGame\TcpClient\obj\Debug\TcpClient.csproj.CoreCompileInputs.cache
 E:\Unity\VsWorkSpace\TcpCreatNetworkingGame\TcpCreatNetworkingGame\TcpClient\obj\Debug\TcpClient.exe
 E:\Unity\VsWorkSpace\TcpCreatNetworkingGame\TcpCreatNetworkingGame\TcpClient\obj\Debug\TcpClient.pdb
+E:\Unity\VsWorkSpace\TcpCreatNetworkingGame\TcpCreatNetworkingGame\TcpClient\obj\Debug\TcpClient.csprojResolveAssemblyReference.cache
