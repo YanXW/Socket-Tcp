@@ -1,2 +1,2 @@
-# Socket-Tcp-.Net-
-Sockt Tcp test
+# Socket/Tcp
+Socket/TCP communication practice based on C# Win32ConsoleApplication.
