@@ -29,20 +29,22 @@ namespace TcpServer
             serverSocket.BeginAccept(AcceptCallBack,serverSocket);
             
         }
+        static Message msg = new Message();
         static void AcceptCallBack(IAsyncResult ar)
         {
             Socket serverSocket = ar.AsyncState as Socket;
             Socket clientSocket = serverSocket.EndAccept(ar);
-            string Msg = "hello ,client 你好...";
-            byte[] sendData = System.Text.Encoding.UTF8.GetBytes(Msg);
+            string MsgStr = "hello ,client 你好...";
+            byte[] sendData = System.Text.Encoding.UTF8.GetBytes(MsgStr);
             clientSocket.Send(sendData);
             //异步接受数据
-            clientSocket.BeginReceive(dataBuff, 0, 1024, SocketFlags.None, ReceCallBack, clientSocket);
+            clientSocket.BeginReceive(msg.Data, msg.StartIndex, msg.RemainSize, SocketFlags.None, ReceCallBack, clientSocket);
 
             serverSocket.BeginAccept(AcceptCallBack, serverSocket); //循环调用等待接收
         }
         static void ReceCallBack(IAsyncResult ar)
         {
+           
             Socket clientSocket = null;
             try
             {
@@ -52,9 +54,13 @@ namespace TcpServer
                 {
                     clientSocket.Close();return;
                 }
-                string msg = Encoding.UTF8.GetString(dataBuff, 0, count);
-                Console.WriteLine("接受客户端的消息：" + msg);
-                clientSocket.BeginReceive(dataBuff, 0, 1024, SocketFlags.None, ReceCallBack, clientSocket);//回调，循环
+                msg.addCount(count);
+                msg.readMessage();
+                clientSocket.BeginReceive(msg.Data, msg.StartIndex, msg.RemainSize, SocketFlags.None, ReceCallBack, clientSocket);
+               
+                //string msgStr = Encoding.UTF8.GetString(dataBuff, 0, count);
+                //Console.WriteLine("接受客户端的消息：" + msgStr);
+                //clientSocket.BeginReceive(dataBuff, 0, 1024, SocketFlags.None, ReceCallBack, clientSocket);//回调，循环
             }
             catch(Exception e)
             {

@@ -27,8 +27,11 @@ namespace TcpClient
                 {
                     clientSocket.Close(); return;
                 }
-                clientSocket.Send(Encoding.UTF8.GetBytes(s));
-               
+                // clientSocket.Send(Encoding.UTF8.GetBytes(s));  
+            }
+            for (int i = 0; i < 100; i++)
+            {
+                clientSocket.Send(Message.GetBytes(i.ToString()));
             }
             Console.ReadKey();
             clientSocket.Close(); 

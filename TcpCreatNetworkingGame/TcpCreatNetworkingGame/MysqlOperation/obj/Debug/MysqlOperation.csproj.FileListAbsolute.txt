@@ -1,0 +1,7 @@
+E:\Unity\VsWorkSpace\TcpCreatNetworkingGame\TcpCreatNetworkingGame\MysqlOperation\bin\Debug\MysqlOperation.exe
+E:\Unity\VsWorkSpace\TcpCreatNetworkingGame\TcpCreatNetworkingGame\MysqlOperation\bin\Debug\MysqlOperation.pdb
+E:\Unity\VsWorkSpace\TcpCreatNetworkingGame\TcpCreatNetworkingGame\MysqlOperation\bin\Debug\MySql.Data.dll
+E:\Unity\VsWorkSpace\TcpCreatNetworkingGame\TcpCreatNetworkingGame\MysqlOperation\obj\Debug\MysqlOperation.csprojResolveAssemblyReference.cache
+E:\Unity\VsWorkSpace\TcpCreatNetworkingGame\TcpCreatNetworkingGame\MysqlOperation\obj\Debug\MysqlOperation.csproj.CoreCompileInputs.cache
+E:\Unity\VsWorkSpace\TcpCreatNetworkingGame\TcpCreatNetworkingGame\MysqlOperation\obj\Debug\MysqlOperation.exe
+E:\Unity\VsWorkSpace\TcpCreatNetworkingGame\TcpCreatNetworkingGame\MysqlOperation\obj\Debug\MysqlOperation.pdb

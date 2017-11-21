@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpServer", "TcpServer\TcpS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpClient", "TcpClient\TcpClient.csproj", "{0444E279-359E-411F-B896-D6BF3B4C83D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MysqlOperation", "MysqlOperation\MysqlOperation.csproj", "{7049CA9C-589C-4355-A9D4-D5FC3DA40184}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0444E279-359E-411F-B896-D6BF3B4C83D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0444E279-359E-411F-B896-D6BF3B4C83D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0444E279-359E-411F-B896-D6BF3B4C83D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7049CA9C-589C-4355-A9D4-D5FC3DA40184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7049CA9C-589C-4355-A9D4-D5FC3DA40184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7049CA9C-589C-4355-A9D4-D5FC3DA40184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7049CA9C-589C-4355-A9D4-D5FC3DA40184}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
