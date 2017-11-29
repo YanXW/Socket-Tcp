@@ -1,0 +1,9 @@
+E:\Unity\VsWorkSpace\TcpCreatNetworkingGame\TcpCreatNetworkingGame\GameServer\obj\Debug\GameServer.csprojResolveAssemblyReference.cache
+E:\Unity\VsWorkSpace\TcpCreatNetworkingGame\TcpCreatNetworkingGame\GameServer\obj\Debug\GameServer.csproj.CoreCompileInputs.cache
+E:\Unity\VsWorkSpace\TcpCreatNetworkingGame\TcpCreatNetworkingGame\GameServer\bin\Debug\GameServer.exe
+E:\Unity\VsWorkSpace\TcpCreatNetworkingGame\TcpCreatNetworkingGame\GameServer\bin\Debug\GameServer.pdb
+E:\Unity\VsWorkSpace\TcpCreatNetworkingGame\TcpCreatNetworkingGame\GameServer\obj\Debug\GameServer.exe
+E:\Unity\VsWorkSpace\TcpCreatNetworkingGame\TcpCreatNetworkingGame\GameServer\obj\Debug\GameServer.pdb
+E:\Unity\VsWorkSpace\TcpCreatNetworkingGame\TcpCreatNetworkingGame\GameServer\bin\Debug\GameServer.exe.config
+E:\Unity\VsWorkSpace\TcpCreatNetworkingGame\TcpCreatNetworkingGame\GameServer\bin\Debug\Common.dll
+E:\Unity\VsWorkSpace\TcpCreatNetworkingGame\TcpCreatNetworkingGame\GameServer\bin\Debug\Common.pdb

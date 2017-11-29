@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpClient", "TcpClient\TcpC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MysqlOperation", "MysqlOperation\MysqlOperation.csproj", "{7049CA9C-589C-4355-A9D4-D5FC3DA40184}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameServer", "GameServer\GameServer.csproj", "{373A3D49-7805-4972-8475-EDA7289C224B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{2C0BD2A1-BDE0-4C97-A58F-2DF219718D05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{7049CA9C-589C-4355-A9D4-D5FC3DA40184}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7049CA9C-589C-4355-A9D4-D5FC3DA40184}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7049CA9C-589C-4355-A9D4-D5FC3DA40184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{373A3D49-7805-4972-8475-EDA7289C224B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{373A3D49-7805-4972-8475-EDA7289C224B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{373A3D49-7805-4972-8475-EDA7289C224B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{373A3D49-7805-4972-8475-EDA7289C224B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C0BD2A1-BDE0-4C97-A58F-2DF219718D05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C0BD2A1-BDE0-4C97-A58F-2DF219718D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C0BD2A1-BDE0-4C97-A58F-2DF219718D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C0BD2A1-BDE0-4C97-A58F-2DF219718D05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
